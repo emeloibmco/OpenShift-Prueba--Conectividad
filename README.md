@@ -2,11 +2,12 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Creación de la imagen BusyBox en OpenShift](#Creación-de-la-imagen-BusyBox-en-OpenShift)
-3. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox)
-4. [Prueba de conectividad](#Prueba-de-conectividad)
-5. [Referencias](#Referencias-mag)
-6. [Autores](#Autores-black_nib)
+2. [Ingreso a la consola de OpenShift](#Ingreso-a-la-consola-de-OpenShift)
+3. [Creación de la imagen BusyBox en OpenShift](#Creación-de-la-imagen-BusyBox-en-OpenShift)
+4. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox)
+5. [Prueba de conectividad](#Prueba-de-conectividad)
+6. [Referencias](#Referencias-mag)
+7. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre-Requisitos :pencil:
@@ -16,13 +17,16 @@
 * Contar con una VSI for VPC para realizar la prueba de conectividad.
 <br />
 
+## Ingreso a la consola de OpenShift
+<br />
+
 ## Creación de la imagen BusyBox en OpenShift
 <br />
 
 ## Acceso a la terminal de BusyBox
 <br />
 
-## Prueba de conectividad]
+## Prueba de conectividad
 <br />
 
 ## Referencias :mag:
