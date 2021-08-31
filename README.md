@@ -18,7 +18,7 @@
 <br />
 
 ## Ingreso a la consola de OpenShift
-Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusteres </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el siguiente icono <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG"></p>
+Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusteres </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el siguiente icono <p><img width="100" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG"></p>
 <br />
 
 ## Creación de la imagen BusyBox en OpenShift
