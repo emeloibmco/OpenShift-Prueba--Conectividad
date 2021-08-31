@@ -1,4 +1,5 @@
 # Prueba de conectividad en OpenShift :computer::satellite:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/diagrama.png"></p>
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
