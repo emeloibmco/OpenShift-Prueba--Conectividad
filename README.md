@@ -52,6 +52,10 @@ spec:
 <br />
 
 ## Prueba de conectividad
+Una vez tenga acceso a la terminal de *busybox* podrá probar la conectividad con recursos que se encuentren afuera de *OpenShift* pero que se encuentre dentro de la misma subnet. Como el clúster de *OpenShift* fue creado dentro de un *VPC*, se probará su conectividad con una vsi que se encuentra de la misma *VPC*, por lo tanto tambien dentro de la misma subnet.
+Para probar dicha conectividad se utilizarán lo comandos ```ping``` y ```traceroute```.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/prueba.gif"></p>
 <br />
 
 ## Referencias :mag:
