@@ -3,10 +3,10 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Ingreso a la consola de OpenShift](#Ingreso-a-la-consola-de-OpenShift)
-3. [Creación de la imagen BusyBox en OpenShift](#Creación-de-la-imagen-BusyBox-en-OpenShift)
-4. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox)
-5. [Prueba de conectividad](#Prueba-de-conectividad)
+2. [Ingreso a la consola de OpenShift](#Ingreso-a-la-consola-de-OpenShift-key)
+3. [Creación de la imagen BusyBox en OpenShift](#Creación-de-la-imagen-BusyBox-en-OpenShift-inbox_tray)
+4. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox-left_right_arrow)
+5. [Prueba de conectividad](#Prueba-de-conectividad-left_right_arrow)
 6. [Referencias](#Referencias-mag)
 7. [Autores](#Autores-black_nib)
 <br />
@@ -18,11 +18,12 @@
 * Contar con una VSI for VPC para realizar la prueba de conectividad.
 <br />
 
-## Ingreso a la consola de OpenShift
-Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el icono <img width="100" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
+## Ingreso a la consola de OpenShift :key:
+Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el icono <img width="200" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
+
 <br />
 
-## Creación de la imagen BusyBox en OpenShift
+## Creación de la imagen BusyBox en OpenShift :inbox_tray:
 1. En la consola de su clúster de OpenShift, asegurese de tener el rol como ```Developer/Desarrolador```, y seleccione la opción ```create a Project/crear un Proyecto```, a continuación ingrese un ```Nombre``` y de click en ```Crear```.
 2. Una vez este creado el proyecto, en ```Topology/Topología``` seleccione la opción ```YAML``` e ingrese el siguiente YAML, el cual creará el recurso de *BusyBox* en un Pod de *OpenShift*.
 ```
@@ -49,12 +50,13 @@ spec:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/busybox.gif"></p>
 <br />
 
-## Acceso a la terminal de BusyBox
+## Acceso a la terminal de BusyBox 
 <br />
 
-## Prueba de conectividad
-Una vez tenga acceso a la terminal de *busybox* podrá probar la conectividad con recursos que se encuentren afuera de *OpenShift* pero que se encuentre dentro de la misma subnet. Como el clúster de *OpenShift* fue creado dentro de un *VPC*, se probará su conectividad con una vsi que se encuentra de la misma *VPC*, por lo tanto tambien dentro de la misma subnet.
-Para probar dicha conectividad se utilizarán lo comandos ```ping``` y ```traceroute```.
+## Prueba de conectividad :left_right_arrow:
+Una vez tenga acceso a la terminal de *busybox* podrá probar la conectividad con recursos que se encuentren afuera de *OpenShift* pero que se encuentre dentro de la misma subnet. 
+
+Como el clúster de *OpenShift* fue creado dentro de un *VPC*, se probará su conectividad con una vsi que se encuentra de la misma *VPC*, por lo tanto tambien dentro de la misma subnet. Para probar dicha conectividad se utilizarán lo comandos ```ping``` y ```traceroute```.
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/prueba.gif"></p>
 <br />
