@@ -23,7 +23,7 @@ Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> 
 
 ## Creación de la imagen BusyBox en OpenShift
 1. En la consola de su clúster de OpenShift, asegurese de tener el rol como ```Developer/Desarrolador```, y seleccione la opción ```create a Project/crear un Proyecto```, a continuación ingrese un ```Nombre``` y de click en ```Crear```.
-2. Una vez este creado el proyecto, en ```Topology``` seleccione la opción ```YAML``` e ingrese el siguiente YAML el cual creará el recurso de *BusyBox* en un Pod de *OpenShift*.
+2. Una vez este creado el proyecto, en ```Topology/Topología``` seleccione la opción ```YAML``` e ingrese el siguiente YAML, el cual creará el recurso de *BusyBox* en un Pod de *OpenShift*.
 ```
 apiVersion: v1
 kind: Pod
@@ -45,7 +45,7 @@ spec:
 
 
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/ssh.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/busybox.gif"></p>
 <br />
 
 ## Acceso a la terminal de BusyBox
