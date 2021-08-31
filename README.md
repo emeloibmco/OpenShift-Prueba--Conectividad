@@ -1,4 +1,5 @@
 # Prueba de conectividad en OpenShift :computer::satellite:
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/diagrama.png"></p>
 
 ## Índice  📰
@@ -19,7 +20,7 @@
 <br />
 
 ## Ingreso a la consola de OpenShift :key:
-Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el icono <img width="200" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
+Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el icono <img width="150" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
 
 <br />
 
