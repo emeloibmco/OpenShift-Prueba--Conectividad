@@ -18,10 +18,34 @@
 <br />
 
 ## Ingreso a la consola de OpenShift
-Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusteres </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el siguiente icono <img width="100" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
+Ingrese a los <a href="https://cloud.ibm.com/kubernetes/clusters">clusters </a> aprovisionados y seleccione el cluster de OpenShift escogido para el ejercicio. Para ingresar a la consola, dirijase a la parte superior derecha y seleccione el icono <img width="100" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/boton.PNG">
 <br />
 
 ## Creación de la imagen BusyBox en OpenShift
+1. En la consola de su clúster de OpenShift, asegurese de tener el rol como ```Developer/Desarrolador```, y seleccione la opción ```create a Project/crear un Proyecto```, a continuación ingrese un ```Nombre``` y de click en ```Crear```.
+2. Una vez este creado el proyecto, en ```Topology``` seleccione la opción ```YAML``` e ingrese el siguiente YAML el cual creará el recurso de *BusyBox* en un Pod de *OpenShift*.
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  labels:
+    app: busybox-app
+spec:
+  containers:
+  - image: busybox
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: IfNotPresent
+    name: busybox
+  restartPolicy: Always
+```
+3. Una vez haya ingresado el YAML, de click en ```Crear``` y espere a que la imagen sea desplegada.
+
+
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/ssh.gif"></p>
 <br />
 
 ## Acceso a la terminal de BusyBox
