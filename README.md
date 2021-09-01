@@ -77,7 +77,7 @@ Como el clúster de *OpenShift* fue creado dentro de una *VPC*, se probará su c
 <br />
 
 ## Referencias :mag:
-* <a href="https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vpc"> Migración de imágenes VMDK o VHD a VPC </a>.
+* <a href="https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started">Red Hat OpenShift on IBM Cloud</a>.
 <br />
 
 ## Autores :black_nib:
