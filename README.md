@@ -1,5 +1,7 @@
 # Prueba de conectividad en OpenShift :computer::satellite:
 
+En esta guía se realiza una prueba de conectividad de *OpenShift* y recursos exteriores al clúster, dicha prueba se lleva a cabo gracias al despliegue en un Pod de *OpenShift* de una imagen de *busybox*, que por medio de su terminal permite ejecutar comandos de verificación del estado de la conexión. Como se observa en el escenario de la prueba, la prueba de conexión se realizará con una *VSI* que se encuentra dentro de la misma subred que el clúster de *OpenShift*.
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/diagrama.png"></p>
 
 ## Índice  📰
