@@ -53,6 +53,13 @@ spec:
 
 ## Acceso a la terminal de BusyBox 
 <br />
+para acceder a la terminal de BusyBox ingrese a *OpenShift Web Cosole* y tenga en cuenta los siguientes pasos:
+1. Seleccione la ventana de **Administrador** en el meú que se encuetra en la parte superior izquierda.
+2. Luego de esto en este mismo menú seleccione **Workloads**>**pods**, esto lo llevara a la lista de pods disponibles.
+3. seleccione el pod de BusyBox, esto lo llevara a la ventana del proyecto.
+4. En esta ventana seleccione la pestaña de terminal para acceder a la terminal de BusyBox.
+
+
 
 ## Prueba de conectividad :left_right_arrow:
 Una vez tenga acceso a la terminal de *busybox* podrá probar la conectividad con recursos que se encuentren afuera de *OpenShift* pero que se encuentre dentro de la misma subnet. 
