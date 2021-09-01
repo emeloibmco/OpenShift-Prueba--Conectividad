@@ -52,8 +52,8 @@ spec:
 <br />
 
 ## Acceso a la terminal de BusyBox 
-<br />
 para acceder a la terminal de BusyBox ingrese a *OpenShift Web Cosole* y tenga en cuenta los siguientes pasos:
+
 1. Seleccione la ventana de **Administrador** en el meú que se encuetra en la parte superior izquierda.
 2. Luego de esto en este mismo menú seleccione **Workloads**>**pods**, esto lo llevara a la lista de pods disponibles.
 3. seleccione el pod de BusyBox, esto lo llevara a la ventana del proyecto.
