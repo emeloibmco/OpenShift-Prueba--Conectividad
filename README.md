@@ -60,7 +60,7 @@ para acceder a la terminal de BusyBox ingrese a *OpenShift Web Cosole* y tenga e
 4. En esta ventana seleccione la pestaña de terminal para acceder a la terminal de BusyBox.
 
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/acceso.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/access.gif"></p>
 <br />
 
 
