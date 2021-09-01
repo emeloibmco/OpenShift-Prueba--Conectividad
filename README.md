@@ -65,6 +65,7 @@ para acceder a la terminal de BusyBox ingrese a *OpenShift Web Cosole* y tenga e
 
 
 
+
 ## Prueba de conectividad :left_right_arrow:
 Una vez tenga acceso a la terminal de *busybox* podrá probar la conectividad con recursos que se encuentren afuera de *OpenShift* pero que se encuentre dentro de la misma subnet. 
 
