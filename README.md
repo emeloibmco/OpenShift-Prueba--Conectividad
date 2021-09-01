@@ -1,6 +1,6 @@
 # Prueba de conectividad en OpenShift :computer::satellite:
 
-En esta guía se realiza una prueba de conectividad de *OpenShift* y recursos exteriores al clúster, dicha prueba se lleva a cabo gracias al despliegue en un Pod de *OpenShift* de una imagen de *busybox*, que por medio de su terminal permite ejecutar comandos de verificación del estado de la conexión. Como se observa en el escenario de la prueba, la prueba de conexión se realizará con una *VSI* que se encuentra dentro de la misma subred que el clúster de *OpenShift*.
+En esta guía se realiza una prueba de conectividad de *OpenShift* y recursos exteriores al clúster, dicha prueba se lleva a cabo gracias al despliegue de una imagen de *busybox* en un Pod de *OpenShift*, que por medio de su terminal permite ejecutar comandos de verificación del estado de la conexión. Como se observa en el escenario de la prueba, la prueba de conexión se realizará con una *VSI* que se encuentra dentro de la misma subred que el clúster de *OpenShift*.
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/diagrama.png"></p>
 
@@ -8,7 +8,7 @@ En esta guía se realiza una prueba de conectividad de *OpenShift* y recursos ex
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Ingreso a la consola de OpenShift](#Ingreso-a-la-consola-de-OpenShift-key)
 3. [Creación de la imagen BusyBox en OpenShift](#Creación-de-la-imagen-BusyBox-en-OpenShift-inbox_tray)
-4. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox-left_right_arrow)
+4. [Acceso a la terminal de BusyBox](#Acceso-a-la-terminal-de-BusyBox-floppy_disk)
 5. [Prueba de conectividad](#Prueba-de-conectividad-left_right_arrow)
 6. [Referencias](#Referencias-mag)
 7. [Autores](#Autores-black_nib)
@@ -53,10 +53,10 @@ spec:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/OpenShift-Prueba-Conectividad/blob/main/Imagenes/busybox.gif"></p>
 <br />
 
-## Acceso a la terminal de BusyBox 
+## Acceso a la terminal de BusyBox :floppy_disk:
 para acceder a la terminal de BusyBox ingrese a *OpenShift Web Cosole* y tenga en cuenta los siguientes pasos:
 
-1. Seleccione la ventana de **Administrador** en el meú que se encuetra en la parte superior izquierda.
+1. Seleccione la ventana de **Administrador** en el menú que se encuetra en la parte superior izquierda.
 2. Luego de esto en este mismo menú seleccione **Workloads**>**pods**, esto lo llevara a la lista de pods disponibles.
 3. seleccione el pod de BusyBox, esto lo llevara a la ventana del proyecto.
 4. En esta ventana seleccione la pestaña de terminal para acceder a la terminal de BusyBox.
